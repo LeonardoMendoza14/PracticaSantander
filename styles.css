@@ -7,6 +7,8 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
 }
 
 .header > * {
@@ -32,12 +34,32 @@ body{
     font-weight: 500;
 }
 
+.menu li {
+    margin: 0 25px 0;
+}
+
 .actions {
     width: 15%;
     text-align: left;
     font-size: 14px;
     font-weight: 600;
-    
+}
+
+.actions > * {
+    margin: 0 10px 0;
+}
+
+a[href="/login"] {
+    color: #67b54b;
+}
+
+.actions > button {
+    background-color: #67b54b;
+    color: white;
+    margin: 12px 14;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .main {
