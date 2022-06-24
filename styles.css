@@ -157,7 +157,7 @@ button{
 }
 
 .features {
-    background-color: #f2f2f2;
+    background-color: #ebe7f0;
     padding: 5% 70px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -173,7 +173,7 @@ button{
     display: flex;
     align-items: center;
     overflow: hidden;
-    box-shadow: 4px 4px 10px #025157;
+    box-shadow: 4px 4px 10px #190257;
   }
   
   .features .feature-card .feature-content {
