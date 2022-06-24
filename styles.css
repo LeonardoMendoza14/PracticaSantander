@@ -76,6 +76,10 @@ a[href="/login"] {
     text-align: center;
 }
 
+.main h1 {
+    font-size: 60px;
+}
+
 li {
     display: inline;
 }
@@ -161,7 +165,7 @@ button{
     padding: 5% 70px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-  }
+}
   
   .features .feature-card {
     margin-bottom: 30px;
@@ -178,10 +182,6 @@ button{
   
   .features .feature-card .feature-content {
     /* Centra el contenido */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 30px 20px 40px 40px;
     flex: 2;
     text-align: center;
@@ -213,4 +213,26 @@ button{
     color: #67b54b;
     font-weight: 600;
     text-decoration: none;
+  }
+
+
+  /** dispositivos móviles en vista viewport (vertical) */
+  @media (max-width: 575px) {
+    .navbar,
+    .actions {
+      display: none;
+    }
+  
+    .main h1 {
+      font-size: 30px;
+    }
+
+    .main {
+        margin-top: 130px;
+    }
+    
+    .banner > img {
+        width: 100%;
+        height: auto;
+    }
   }
