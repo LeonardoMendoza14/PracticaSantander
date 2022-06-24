@@ -158,7 +158,7 @@ button{
     grid-row-end: 2;
 }
 .imagenespublicidad img {
-    width: 20%;
+    width: 50%;
     margin-left: 150px
 }
 
@@ -240,6 +240,7 @@ button{
 
     .publicidad {
         flex-direction: column;
+        margin-left: 85px;
     }
     .publish > form {
         flex-direction: column;
