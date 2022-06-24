@@ -240,7 +240,7 @@ button{
 
     .publicidad {
         flex-direction: column;
-        margin-left: 85px;
+        margin-left: 65px;
     }
     .publish > form {
         flex-direction: column;
@@ -255,4 +255,11 @@ button{
         width: 65%;
       }
 
+      /** Estilos de portada principal y sección de publicidad */
+  .features {
+    margin-top: 50px;
+    grid-template: repeat(4, 1fr) / 1fr;
+    padding-left: 0;
+    padding-right: 0;
+  }
   }
